@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>@Clustered @Singleton Reproducer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>@Clustered @Singleton Reproducer</h1>
+        <p><a href="rest/request/clustered">try via @EJB @Clustered</a></p>
+        <p><a href="rest/request/clustered-timeout">try via @EJB @Clustered with @AccessTimeout</a></p>
+        <p><a href="rest/request/singleton-timeout">try via @EJB with @AccessTimeout (not annotated with @Clustered)</a></p>
+        <p><a href="rest/request/clustered-application">try @Clustered @ApplicationScoped bean</a></p>
+    </body>
+</html>
